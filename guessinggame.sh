@@ -14,11 +14,11 @@ do
 	then 
 		if [[ $guess -gt $files_number ]]
 		then
-			echo "Your guess is too HIGH. Try again."
+			echo "That number is too big,come on,try again."
 			flag=3
 		elif [[ $guess -lt $files_number ]]
 		then
-			echo "Your guess is too LOW. Try again."
+			echo "That number is to small,come on,try again."
 			flag=3
 		else
 			echo "Sorry. Please Enter a valid answer"
